@@ -9,7 +9,7 @@ async function getMovies() {
       alert("Please enter a movie name");
     }
     let response = await fetch(
-      `http://www.omdbapi.com/?apikey=6aaaa222&s=${input.value}`
+      `https://www.omdbapi.com/?apikey=6aaaa222&s=${input.value}`
     );
     let data = await response.json();
     if (data.Response === "False") {

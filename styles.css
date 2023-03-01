@@ -11,7 +11,7 @@ body{
     justify-content: center;
     background: rgb(255,249,249);
     background: radial-gradient(circle, rgba(255,249,249,0.23573179271708689) 0%, rgba(97, 138, 209, 0.255) 39%, rgba(255,255,255,0) 96%);
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     font-size: 2.5rem;
@@ -19,7 +19,7 @@ h1 {
     color: #333;
     text-align: center;
     margin: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .search-area-container{
@@ -40,6 +40,8 @@ input {
     color: #333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     outline: none;
+    letter-spacing: 2px;
+    
 }
 
 button {
@@ -55,6 +57,14 @@ button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     outline: none;
+    letter-spacing: 2px;
+    
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
+    transition: all 0.15s ease-in-out;
 }
 
 .display-area-container {
@@ -76,7 +86,6 @@ button {
     justify-content: space-around;
     border-radius: 5px;
     overflow: hidden;
-    font-family: arial;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
